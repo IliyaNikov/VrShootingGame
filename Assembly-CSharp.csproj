@@ -42,8 +42,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\XRPlatformControllerSetup.cs" />
-     <Compile Include="Assets\VarcanRex\LongSword\Scripts\SimpleRotate.cs" />
      <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
+     <Compile Include="Assets\VarcanRex\LongSword\Scripts\SimpleRotate.cs" />
      <None Include="Assets\Nokobot\Modern Guns - Handgun\README.txt" />
      <None Include="Assets\BrokenVector\LowPolyTreePack\README.txt" />
      <None Include="Assets\StoneTable\Informations.txt" />
@@ -710,6 +710,9 @@
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.XR.CoreUtils.Editor">
+     <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.XR.Management">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
      </Reference>
@@ -742,6 +745,9 @@
      </Reference>
      <Reference Include="Unity.TextMeshPro">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Interaction.Toolkit">
+     <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Subsystem.Registration">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
@@ -782,11 +788,17 @@
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.XR.CoreUtils">
+     <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.XR.LegacyInputHelpers">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+     <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Oculus">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
@@ -805,18 +817,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.CoreUtils">
-     <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.CoreUtils.Editor">
-     <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-     <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Interaction.Toolkit">
-     <HintPath>C:\Users\iliya\VrShootingGame\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

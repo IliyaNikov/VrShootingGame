@@ -20,6 +20,9 @@ public class SimpleShoot : MonoBehaviour
     [Tooltip("Bullet Speed")] [SerializeField] private float shotPower = 500f;
     [Tooltip("Casing Ejection Speed")] [SerializeField] private float ejectPower = 150f;
 
+    public AudioSource Source;
+    public AudioClip Clip;
+
 
     void Start()
     {
@@ -30,20 +33,26 @@ public class SimpleShoot : MonoBehaviour
             gunAnimator = GetComponentInChildren<Animator>();
     }
 
-    void Update()
-    {
+    //void Update()
+    //{
         //If you want a different input, change it here
-        if (Input.GetButtonDown("Fire1"))
-        {
+      //  if (Input.GetButtonDown("Fire1"))
+        //{
             //Calls animation on the gun that has the relevant animation events that will fire
-            gunAnimator.SetTrigger("Fire");
-        }
+          //  gunAnimator.SetTrigger("Fire");
+       // }
+    //}
+
+    public void StartShoot()
+    {
+        gunAnimator.SetTrigger("Fire");
     }
 
 
     //This function creates the bullet behavior
     void Shoot()
     {
+        Source.PlayOneShot(Clip);
         if (muzzleFlashPrefab)
         {
             //Create the muzzle flash
