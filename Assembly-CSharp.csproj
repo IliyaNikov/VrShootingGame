@@ -41,9 +41,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\ZombieGenerator.cs" />
      <Compile Include="Assets\XRPlatformControllerSetup.cs" />
      <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
+     <Compile Include="Assets\ZombieBehaviour.cs" />
      <Compile Include="Assets\VarcanRex\LongSword\Scripts\SimpleRotate.cs" />
+     <Compile Include="Assets\Destroy.cs" />
      <None Include="Assets\Nokobot\Modern Guns - Handgun\README.txt" />
      <None Include="Assets\BrokenVector\LowPolyTreePack\README.txt" />
      <None Include="Assets\StoneTable\Informations.txt" />

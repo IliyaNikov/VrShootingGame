@@ -382,9 +382,12 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Destroy.cs"
 "Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs"
 "Assets/VarcanRex/LongSword/Scripts/SimpleRotate.cs"
 "Assets/XRPlatformControllerSetup.cs"
+"Assets/ZombieBehaviour.cs"
+"Assets/ZombieGenerator.cs"
 -langversion:9.0
 
 /deterministic
